@@ -66,7 +66,7 @@ function ColorNavbar() {
       >
                  <img className="Logo" 
 
-alt="..." 
+alt="logo" 
 
 //  className="Logo" 
 

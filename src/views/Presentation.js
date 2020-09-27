@@ -57,10 +57,11 @@ function Presentation() {
 
       <SectionSections />
      
-      <SectionIcons />
+   
       <SectionFreeDemo />
       
       <SectionOverview />
+      
     
     
      

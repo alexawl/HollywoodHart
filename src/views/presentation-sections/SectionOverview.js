@@ -13,7 +13,7 @@ function SectionOverview() {
           <Row>
             <Col className="offset-md-2 text-center" md="8">
               <div className="space-top" />
-              <h2 className="title">Want more details?</h2>
+              <h2 className="title">Our Staff</h2>
             </Col>
             <Container>
               <div className="space-top" />

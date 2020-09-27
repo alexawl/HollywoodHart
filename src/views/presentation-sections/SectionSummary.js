@@ -16,10 +16,14 @@ function SectionSummary() {
                   <i className="nc-icon nc-layout-11" />
                 </div>
                 <div className="description">
-                  <h4 className="info-title">Huge Number of Components</h4>
+                  <h4 className="info-title">Living with Wildlife</h4>
                   <p>
-                    The kit comes with components designed to look perfect
-                    together. All components fit perfectly with each other.
+Helpful Tips on Living With Wildlife
+
+** It is suggested that you do not try to handle, trap or try to keep any wildlife as pets **
+*LINK TO PAGE**
+
+
                   </p>
                 </div>
               </div>
@@ -30,11 +34,10 @@ function SectionSummary() {
                   <i className="nc-icon nc-tile-56" />
                 </div>
                 <div className="description">
-                  <h4 className="info-title">Multi-Purpose Sections</h4>
+                  <h4 className="info-title">Overview</h4>
                   <p>
-                    The sections will help you generate pages in no time. From
-                    team presentation to pricing options, you can easily
-                    customise and built your examples.
+Pooches & Kitties in Hollywood, Inc. (501c(3) non-profit organization).
+**LINK TO**
                   </p>
                 </div>
               </div>
@@ -45,11 +48,19 @@ function SectionSummary() {
                   <i className="nc-icon nc-paper" />
                 </div>
                 <div className="description">
-                  <h4 className="info-title">Example Pages</h4>
+                  <h4 className="info-title">Services</h4>
                   <p>
-                    Speed up your development time or get inspired with the
-                    large number of example pages. You can jump start your
-                    development with our pre-built example pages.
+Lost Your Pet
+Found A Pet
+Report Animal Cruelty
+Surrendering Your Pet
+End of Life & Cremation
+Hurricane News
+Pet Loss & Grieving Services
+Animal Assisted Therapy
+Service Dogs
+Other Resources for Pet Owners
+Pet Safety Information
                   </p>
                 </div>
               </div>

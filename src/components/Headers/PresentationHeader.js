@@ -13,13 +13,13 @@ function PresentationHeader() {
           className="page-header section-dark"
           style={{
             backgroundImage:
-              "url(" + require("assets/img/sections/hollywood.jpg") + ")",
+              "url(" + require("assets/img/sections/banner03.jpg") + ")",
           }}
         >
           <div className="content-center">
             <Container>
               <div className="title-brand">
-                <h1 className="presentation-title">Hollywood<br></br>Animal Rescue Team</h1>
+                <h1 className="presentation-title">Pooches & Kitties<br></br>In hollywood, Inc</h1>
 
                 <div className="fog-low">
                 </div>
@@ -28,20 +28,13 @@ function PresentationHeader() {
               For more information on H.A.R.T. or Pooches & Kitties please call the Code Compliance Division at 954.921.3061 or send them an email at <a href="mailto:HART@hollywoodfl.org">HART@hollywoodfl.org</a> <a href="mailto:PnkHwd@gmail.com">I PnKHwd@gmail.com.</a>
               </h2>
             </Container>
+            <Container>
+                <a >                
+                  <h6 className="creator"> Designed and coded by{"@AMAT"} </h6>
+                </a>
+            </Container>
           </div>
-          <h6 className="category category-absolute">
-            Designed and coded by{"@AMAT"}
-            <a
-              // href="https://www.creative-tim.com?ref=pkpr-presentation-header"
-              target="_blank"
-            >
-              <img
-                alt="..."
-                className="creative-tim-logo"
-                // src={require("assets/img/hollywood.jpg")}
-              />
-            </a>
-          </h6>
+
         </div>
       </div>
     </>

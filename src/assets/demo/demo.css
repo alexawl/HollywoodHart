@@ -2660,9 +2660,19 @@ pre.prettyprint {
 }
 
 .presentation-page .presentation-subtitle {
-  font-size: 1.7em;
-  color: #FFFFFF;
+  font-size: 1.5em;
+  color: white;
+  font-weight: 400;
+
 }
+
+a:link {
+    color:white;
+    font-weight: 400;
+    }
+a:hover {
+    color: yellow;
+}    
 
 .presentation-page .category-absolute {
   position: absolute;

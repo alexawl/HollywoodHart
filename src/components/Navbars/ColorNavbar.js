@@ -22,7 +22,7 @@ import {
 // core components
 
 function ColorNavbar() {
-  const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
+  const [navbarColor, setNavbarColor] = React.useState("navbar-dark");
   const [bodyClick, setBodyClick] = React.useState(false);
   const [collapseOpen, setCollapseOpen] = React.useState(false);
   React.useEffect(() => {
@@ -39,7 +39,7 @@ function ColorNavbar() {
         document.documentElement.scrollTop < 500 ||
         document.body.scrollTop < 500
       ) {
-        setNavbarColor("navbar-transparent");
+        setNavbarColor("navbar-dark");
       }
     };
     window.addEventListener("scroll", updateNavbarColor);
@@ -64,17 +64,7 @@ function ColorNavbar() {
         expand="lg"
         id="navbar-main"
       >
-                 <img className="Logo" 
-
-alt="logo" 
-
-//  className="Logo" 
-
-src={require("assets/img/hartlogo2.png")} 
-
- > 
-
-</img> 
+                 {/* <img className="Logo" alt="logo" src={require("assets/img/hartlogo2.png")} > </img>  */}
 
         <Container>
           <div className="navbar-translate">

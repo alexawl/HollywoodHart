@@ -5,13 +5,12 @@ import React from "react";
 // core components
 import ColorNavbar from "components/Navbars/ColorNavbar.js";
 import PresentationHeader from "components/Headers/PresentationHeader.js";
-
+import FooterGray from "components/Footers/FooterGray.js";
 // sections for this page
 import SectionSummary from "./presentation-sections/SectionSummary.js";
 import SectionSections from "./presentation-sections/SectionSections.js";
 
-import SectionIcons from "./presentation-sections/SectionIcons.js";
-import SectionFreeDemo from "./presentation-sections/SectionFreeDemo.js";
+
 
 import SectionOverview from "./presentation-sections/SectionOverview.js";
 
@@ -56,13 +55,10 @@ function Presentation() {
       <SectionSummary />
 
       <SectionSections />
-     
-   
-      <SectionFreeDemo />
-      
+          
       <SectionOverview />
       
-    
+      <FooterGray />  
     
      
     </>

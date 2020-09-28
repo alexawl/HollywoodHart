@@ -6,18 +6,18 @@ import { Container, Row } from "reactstrap";
 
 // core components
 
-function FooterBlack() {
+function FooterGray() {
   return (
     <>
-      <footer className="footer footer-white">
+      <footer className="footer footer-gray footer-white">
         <Container>
           <Row>
             <nav className="footer-nav">
               <ul>
                 <li>
                   <a
-                    href="https://www.creative-tim.com?ref=pkpr-white-footer"
-                    target="_blank"
+                    href="https://www.creative-tim.com?ref=pkpr-gray-footer"
+                    target="/presentation"
                     className="mr-1"
                   >
                     Creative Tim
@@ -25,7 +25,7 @@ function FooterBlack() {
                 </li>
                 <li>
                   <a
-                    href="http://blog.creative-tim.com/?ref=pkpr-white-footer"
+                    href="http://blog.creative-tim.com/?ref=pkpr-gray-footer"
                     target="_blank"
                     className="mr-1"
                   >
@@ -34,7 +34,7 @@ function FooterBlack() {
                 </li>
                 <li>
                   <a
-                    href="https://www.creative-tim.com/license?ref=pkpr-white-footer"
+                    href="https://www.creative-tim.com/license?ref=pkpr-gray-footer"
                     target="_blank"
                   >
                     Licenses
@@ -45,7 +45,7 @@ function FooterBlack() {
             <div className="credits ml-auto">
               <span className="copyright">
                 © {new Date().getFullYear()}
-                , made with <i className="fa fa-heart heart" /> by Creative Tim
+                , made with <i className="fa fa-heart heart" /> by AMAT
               </span>
             </div>
           </Row>
@@ -55,4 +55,4 @@ function FooterBlack() {
   );
 }
 
-export default FooterBlack;
+export default FooterGray;
